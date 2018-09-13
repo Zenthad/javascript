@@ -1,0 +1,11 @@
+function functionName() {
+console.log("Hello World");
+}
+
+
+Here is a function with two parameters, param1 and param2:
+function testFun(param1, param2) {
+console.log(param1, param2);
+}
+Then we can call testFun:
+testFun("Hello", "World");
