@@ -1,0 +1,19 @@
+function reverseString(str) {
+  
+//console.log(str.split(""));
+useThis = str.split("");  
+  
+  
+boom = useThis.reverse();
+  
+  boom.join('');
+  
+  console.log(boom);
+  
+  return boom.join('');
+// return useThis;
+  
+  //return str;
+}
+
+reverseString("hello");
